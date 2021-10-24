@@ -1,0 +1,495 @@
+@media screen and (min-width: 1430px){
+ /* Recipe Home */
+    .recipes-home{
+        display: block;
+    }
+    .recipe-navbar{
+        display: block;
+        margin-top: 180px;
+    }
+
+.recipe-navbar-link{
+    color:cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: burlywood;
+  }
+
+/* Search Recipe */
+
+  .recipe-input{
+    color: cadetblue;
+    background-color: burlywood;
+    margin-left: 75px;
+    margin-top: 100px;
+    height: 30px;
+    font-size: 20px;
+    width: 40%;
+    border: none;
+}
+
+/* Recipe Card */
+
+.recipe-display-recipeCard{
+    float: right;
+    padding: 20px;
+    width: 50%;
+    height: 580px;
+    margin-right: 40px;
+    overflow: scroll;
+    background-color: burlywood;
+    color: cadetblue;
+}
+
+.recipe-card{
+    border: 1px solid cadetblue;
+    margin-bottom: 20px;
+    width: 96%;
+    height: 48%;
+    overflow: scroll;
+}
+.recipe-card-name{
+    text-align: center;
+    width: 100%;
+}
+.recipe-card-img{
+    float: right;
+    width: auto;
+    height: 150px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.recipe-card-info{
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    width: 22%;
+    text-align: center;
+}
+
+.recipe-card-description{
+    width: 60%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.recipe-card-recipe-ingredients{
+    width: 55%;
+    float: left;
+}
+
+.recipe-card-recipe-ingredients-title{
+    margin:20px;
+    text-align: left;
+    width: 60%;
+}
+
+.recipe-card-method-title{
+    width: 98%;
+    margin: 20px;
+}
+
+.recipe-card-method{
+    width: 98%;
+}
+
+.recipe-card-method-title{
+    margin:20px;
+    width: 60%;
+}
+
+.recipe-card-method-step, .recipe-card-ingredients-each{
+    list-style: none;
+}
+
+.create-recipe-container{
+    margin-top: 100px;
+}
+
+div.create-display-new-recipe{
+    width: 65%;
+    height: 350px;
+    display: block;
+    margin-right: 40px;
+    float: right;
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+.create-main-container{
+    width: 800px;
+
+}
+.create-recipe-form{
+    margin-left: 20px;
+    width: 390px;
+    display: block;
+    float: left;
+}
+.create-recipe-form:last-child{
+    margin-bottom: 150px;
+}
+div.recipe-card{
+    width: 98%;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.create-recipe-form-inputs{
+    width: 60%;
+    height: 20px;
+    color: cadetblue;
+    margin-bottom: 5px;
+}
+.create-recipe-form-submits{
+    padding: 0;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    border: 1px solid cadetblue;
+}
+
+.create-recipe-form-submits-recipe-card{
+    width: 150px;
+    height:18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    display: block;
+    clear: both;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+    color: burlywood;
+    font-weight: bold;
+    text-decoration: none;
+}
+.create-recipe-form-submits:hover{
+    cursor: pointer;
+}
+.create-recipe-form-submits-recipe-card:hover{
+    cursor: pointer;
+}
+
+select.create-recipe-form-select{
+    padding: 0;
+    width: 60.25%;
+    height: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    border: 1px solid cadetblue;
+}
+.create-recipe-form-option{
+    padding: 0;
+    width: 60%;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    padding: 0 10px;
+    border: 1px solid cadetblue;
+}
+
+::placeholder{
+    color: cadetblue;
+    padding: 4px;
+}
+
+/* Create Recipe */
+
+.createRecipeForm-container{
+margin: 20px;
+width: 50px;
+float: left;
+}
+
+.create-display-new-recipe{
+float: right;
+padding: 20px;
+width: 45%;
+height: 580px;
+margin-right: 20px;
+overflow: scroll;
+background-color: burlywood;
+color: cadetblue;
+}
+
+.create-recipe-form-h4{
+    color:burlywood;
+    margin-left: 40px;
+}
+}
+
+/* Small screen */
+
+@media screen and (max-width: 1430px) {
+
+/* Recipe Home */
+
+.recipes-home{
+    display: block;
+}
+.recipe-navbar{
+    display: block;
+    margin-top: 150px;
+}
+
+.recipe-navbar-link{
+    color:cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: burlywood;
+  }
+
+/* Search Recipe */
+
+  .recipe-input{
+    color: cadetblue;
+    background-color: burlywood;
+    margin-left: 75px;
+    text-align: center;
+    margin-top: 100px;
+    height: 30px;
+    font-size: 20px;
+    width: 40%;
+    border: none;
+}
+
+/* Recipe Card */
+
+    .recipe-card{
+        border: 1px solid cadetblue;
+        margin-bottom: 20px;
+        width: 96%;
+        height: 48%;
+        overflow: scroll;
+    }
+    .recipe-card-name{
+        text-align: center;
+        width: 100%;
+    }
+    .recipe-card-img{
+        float: right;
+        width: auto;
+        height: 150px;
+        justify-content: center;
+        margin-right: 20px;
+        border: 1px solid cadetblue
+    }
+    .recipe-card-info{
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 40px;
+        width: 22%;
+        text-align: center;
+    }
+
+    .recipe-card-description{
+        width: 60%;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    .recipe-card-recipe-ingredients{
+        width: 55%;
+        float: left;
+    }
+
+    .recipe-card-recipe-ingredients-title{
+        margin:20px;
+        text-align: left;
+        width: 60%;
+    }
+
+    .recipe-card-method-title{
+        width: 98%;
+        margin: 20px;
+    }
+
+    .recipe-card-method{
+        width: 98%;
+    }
+
+    .recipe-card-method-title{
+        margin:20px;
+        width: 60%;
+    }
+    .recipe-input{
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .recipe-display-recipeCard-container{
+        width: 100%;
+        height: 800px;
+    }
+    .recipe-display-recipeCard{
+        padding: 20px;
+        width: 80%;
+        height: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        overflow: scroll;
+        background-color: burlywood;
+        color: cadetblue;
+    }
+    div.create-display-new-recipe{
+        width: 65%;
+        height: 350px;
+        display: block;
+        margin: right;
+        float: right;
+        margin-bottom: 150px;
+    }
+    .create-main-container{
+        width: 800px;
+    }
+    .create-recipe-form{
+        margin-left: 20px;
+        width: 390px;
+        display: block;
+        float: left;
+    }
+    .create-recipe-form:last-child{
+        margin-bottom: 150px;
+    }
+    div.recipe-card{
+        width: 98%;
+        height: 450px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .create-recipe-form-inputs{
+        width: 65%;
+        height: 20px;
+        color: cadetblue;
+        margin-bottom: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input[type="number" i] {
+        padding: 0;
+        background-color: burlywood;
+        color: cadetblue;
+        font-weight: bold;
+        border: 1px solid cadetblue;
+    }
+    
+    input[type="text" i] {
+        padding: 0;
+        background-color: burlywood;
+        color: cadetblue;
+        font-weight: bold;
+        border: 1px solid cadetblue;
+    }
+    .create-recipe-form-submits{
+        padding: 0;
+        width: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: burlywood;
+        color: cadetblue;
+        font-weight: bold;
+        border: 1px solid cadetblue;
+    }
+    .create-recipe-form-submits:hover{
+        cursor: pointer;
+    }
+    select.create-recipe-form-select{
+        padding: 0;
+        width: 65.50%;
+        height: 20px;
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: burlywood;
+        color: cadetblue;
+        font-weight: bold;
+        border: 1px solid cadetblue;
+    }
+    .create-recipe-form-option{
+        padding: 0;
+        width: 60%;
+        background-color: burlywood;
+        color: cadetblue;
+        font-weight: bold;
+        padding: 0 10px;
+        border: 1px solid cadetblue;
+    }
+    ::placeholder{
+        color: cadetblue;
+    }
+}
+
+.createRecipeForm-container{
+    margin: 20px;
+    width: 50px;
+    float: left;
+}
+div.create-recipe-form{
+    margin-right: 100px;
+    display: block;
+}
+
+div.create-display-new-recipe{
+    float: right;
+    padding: 20px;
+    margin-top: 20px;
+    width: 60%;
+    height: 580px;
+    margin-right: 40px;
+    margin-left: 20px;
+    overflow: scroll;
+    background-color: burlywood;
+    color: cadetblue;
+}
+.create-recipe-form-submits-recipe-card{
+    width: 150px;
+    height:18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    display: block;
+    clear: both;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+    color: burlywood;
+    font-weight: bold;
+    text-decoration: none;
+}
+.create-recipe-container{
+    margin-top: 80px;
+}
+
+.recipe-navbar{
+    margin-top: 150px;
+}
+.create-recipe-form-h4{
+    color:burlywood;
+    margin-left: 40px;
+}
+

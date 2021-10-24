@@ -1,0 +1,98 @@
+
+.navbar-container{
+  background-color: burlywood;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.navbar-title{
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: burlywood;
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+  border: 2px solid cadetblue;
+  border-radius: 50%;
+  background-color: cadetblue;
+}
+
+.navbar-link{
+  color:cadetblue;
+  text-decoration: none;
+  margin: 50px 40px 10px 10px;
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+h1{
+  margin-top: 300px;
+  text-align: center;
+}
+.mainBody-text{
+  background-color: burlywood;
+  color: cadetblue;
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainBody-subheading{
+  color: burlywood;
+  text-align: center;
+}
+.footer{
+  background-color: burlywood;
+  color: cadetblue;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100px;
+}
+
+.footer-p{
+  width: 40%;
+}
+#ack{
+  float: right;
+  text-align: right;
+  display: block;
+  margin-right: 20px;
+}
+#copy{
+  float: left;
+  padding: 20px;
+  text-align: left;
+  display: block;
+}
+@media screen and (max-width: 1430px){
+.footer{
+  background-color: burlywood;
+  color: cadetblue;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 10px;
+  position: fixed;
+  height: 80px;
+}
+
+.footer-p{
+  width: 40%;
+}
+}
+
+
+

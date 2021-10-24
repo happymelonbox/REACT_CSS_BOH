@@ -1,0 +1,236 @@
+.stock-navbar{
+    margin-top: 150px;
+}
+
+.stock-navbar-link{
+    color:cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: burlywood;
+}
+
+.stock-items-container-div{
+    margin-top: 120px;
+}
+.stock-items-stocktakes-div{
+    width: 30%;
+    float: left;
+    height: 400px;
+    overflow: scroll;
+    background-color: burlywood;
+    text-align: center;
+    color: cadetblue;
+    margin-left: 40px
+}
+.stock-items-stocktakes-display-date{
+    cursor: pointer;
+}
+.stock-items-stockcard-div{
+    background-color: burlywood;
+    height: 400px;
+    width: 60%;
+    float: right;
+    margin-right: 40px;
+    text-align: center;
+    overflow: scroll;
+    margin-bottom: 150px;
+}
+.stock-stockcard-h6, .stock-stockcard-h5, .stock-stockcard-h4{
+    color:cadetblue
+}
+.stock-stockcard-h6{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-top: 0;
+    margin-bottom: 10px;
+    height: 30px;
+    display: block;
+    font-weight: 400;
+}
+.stock-stockcard-h6:first-child{
+    margin-left: 20px;
+}
+.stock-stockcard-h6:last-child{
+    margin-right: 20px;
+}
+
+.stock-stockcard-supplier-items-container, .stock-stockcard-recipe-items-container{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    columns: 20px 5;
+    border: 1px solid cadetblue;
+}
+
+.stock-add-stock-item-container-div{
+    margin-top: 130px;
+    margin-bottom: 150px;
+}
+
+.stock-add-stock-item-container-title{
+    padding: 50px;
+}
+
+.stock-add-stock-item-container-div{
+    width: 60%;
+    height: 400px;
+    background-color: burlywood;
+    color: cadetblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.stock-add-stock-item-input{
+    width: 60%;
+    height: 20px;
+    color: cadetblue;
+    margin-bottom: 5px;
+}
+::placeholder{
+    padding-left: 4px;
+}
+
+.stock-add-stock-item-option{
+    padding: 0;
+    width: 60%;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    padding: 0 10px;
+    border: 1px solid cadetblue;
+}
+select.stock-add-stock-item-select{
+    padding: 0;
+    width: 60.25%;
+    height: 20px;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    border: 1px solid cadetblue;
+}
+
+.stock-add-stock-item-button{
+    padding: 0;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    border: 1px solid cadetblue;
+}
+
+input[type="number" i] {
+    padding: 0;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    border: 1px solid cadetblue;
+}
+
+input[type="text" i] {
+    padding: 0;
+    background-color: burlywood;
+    color: cadetblue;
+    font-weight: bold;
+    border: 1px solid cadetblue;
+}
+
+.stock-stocktake-main-container{
+    margin-top: 130px;
+    margin-bottom: 150px;
+    height: 400px;
+    overflow: scroll;
+    text-align: center;
+    background-color: burlywood;
+    color: cadetblue;
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stock-stocktake-header{
+    padding-top: 40px;
+}
+
+.stock-stocktake-stocktakeinput-product{
+    width: 80%;
+    columns: 20px 6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid cadetblue
+}
+
+.stock-stocktake-type-header{
+    margin-top: 50px;
+}
+
+.stock-stocktake-location-header{
+    margin-top: 40px;
+}
+
+.stock-stocktake-stocktakeinput-product-heading{
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    
+}
+
+.stock-stocktake-stocktakeinput-input{
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.stock-stocktake-submit-button{
+    width: 150px;
+    height:18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    margin-bottom: 150px;
+    display: block;
+    clear: both;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+    color: burlywood;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (min-width: 1430px){
+
+}
+@media screen and (max-width: 1430px){
+    .stock-add-stock-item-button{
+        width: 25%;
+    }
+    .stock-stocktake-main-container{
+        width: 75%;
+    }
+}

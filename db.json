@@ -1,0 +1,577 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "recipe_name": "Meatballs",
+      "yield": 2,
+      "yield_unit": "kg",
+      "prep_time": 10,
+      "prep_time_unit": "minutes",
+      "cooking_time": 10,
+      "cooking_time_unit": "hours",
+      "img_URL": "https://www.giantbomb.com/a/uploads/scale_small/0/216/200444-meatwad.jpg",
+      "description": "Best you don't ask what is in these",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient_name": "Onions",
+          "quantity": 30,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "ingredient_name": "Beef Mince",
+          "quantity": 0,
+          "unit": "kg"
+        },
+        {
+          "id": 3,
+          "ingredient_name": "Garlic",
+          "quantity": 0,
+          "unit": "cloves"
+        }
+      ],
+      "method": [
+        "Blend Onions",
+        "Blend Garlic",
+        "Drink"
+      ]
+    },
+    {
+      "id": 2,
+      "recipe_name": "French Fries",
+      "yield": 2,
+      "yield_unit": "kg",
+      "prep_time": 10,
+      "prep_time_unit": "minutes",
+      "cooking_time": 10,
+      "cooking_time_unit": "hours",
+      "img_URL": "https://cdn.dribbble.com/users/1085196/screenshots/3026250/frylock_dribbble_still_2x.gif?compress=1&resize=400x300",
+      "description": "The wisdom of these fries will be passed on to you, fool.",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient_name": "Onions",
+          "quantity": 30,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "ingredient_name": "Beef Mince",
+          "quantity": 0,
+          "unit": "kg"
+        },
+        {
+          "id": 3,
+          "ingredient_name": "Garlic",
+          "quantity": 0,
+          "unit": "cloves"
+        }
+      ],
+      "method": [
+        "Punch Onions",
+        "Elbow drop the garlic",
+        "Rule the world"
+      ]
+    },
+    {
+      "id": 3,
+      "recipe_name": "Shake",
+      "yield": 2,
+      "yield_unit": "kg",
+      "prep_time": 10,
+      "prep_time_unit": "minutes",
+      "cooking_time": 10,
+      "cooking_time_unit": "hours",
+      "img_URL": "data:image/jpeg;base64,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",
+      "description": "It's a shake",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient_name": "Milk",
+          "quantity": 30,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "ingredient_name": "Beef Fat",
+          "quantity": 60,
+          "unit": "kg"
+        },
+        {
+          "id": 3,
+          "ingredient_name": "Human Kidney",
+          "quantity": 10,
+          "unit": "cloves"
+        }
+      ],
+      "method": [
+        "Add all ingredients into shaker",
+        "Give shaker toddler",
+        "Have toddler shake the shaker",
+        "Drink Shake"
+      ]
+    },
+    {
+      "id": 4,
+      "recipe_name": "Steak",
+      "yield": 2,
+      "yield_unit": "kg",
+      "prep_time": 10,
+      "prep_time_unit": "minutes",
+      "cooking_time": 10,
+      "cooking_time_unit": "hours",
+      "img_URL": "",
+      "description": "",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredient_name": "Steak",
+          "quantity": 30,
+          "unit": "kg"
+        },
+        {
+          "id": 2,
+          "ingredient_name": "Shoe Lace",
+          "quantity": 0,
+          "unit": "kg"
+        },
+        {
+          "id": 3,
+          "ingredient_name": "Gum",
+          "quantity": 0,
+          "unit": "cloves"
+        }
+      ],
+      "method": [
+        "Mix all ingredients together",
+        "Sear steak very quickly",
+        "Consume"
+      ]
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Meat2Please",
+      "company_logo_url": "https://scontent.fmel3-1.fna.fbcdn.net/v/t31.18172-8/1403496_1589446071276323_8340612765977648235_o.jpg?_nc_cat=101&ccb=1-4&_nc_sid=09cbfe&_nc_ohc=tYJ7PpT93OkAX9XHzI4&_nc_ht=scontent.fmel3-1.fna&oh=bd63c4cb2517d14665c5e2bda60f36b2&oe=6132AAD3",
+      "address": {
+        "lot_factory_number": "3",
+        "street_number": "3",
+        "street_name": "Olive Grove",
+        "suburb": "Keysborough",
+        "postcode": 3173,
+        "state": "VIC"
+      },
+      "contact_number": "03 9944 0844",
+      "representative": {
+        "rep_name": "Ben Spargo",
+        "contact_number": "0409007288"
+      },
+      "delivery_days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "messages": []
+    },
+    {
+      "id": 2,
+      "name": "J.T. Fruit & Veg",
+      "company_logo_url": "",
+      "contact_number": "03 9944 7777",
+      "address": {
+        "lot_factory_number": "",
+        "street_number": "14",
+        "street_name": "The CentreWay",
+        "suburb": "Preston",
+        "postcode": 3072,
+        "state": "VIC"
+      },
+      "representative": {
+        "rep_name": "John",
+        "contact_number": "0448756489"
+      },
+      "delivery_days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "messages": []
+    },
+    {
+      "id": 3,
+      "name": "Cadell Food Service",
+      "company_logo_url": "https://cadellfoodservice.com.au/site/assets/files/1101/logo-1-1.png",
+      "contact_number": "03 9944 7658",
+      "address": {
+        "lot_factory_number": "",
+        "street_number": "55-57",
+        "street_name": "Ogilvie Ave",
+        "suburb": "Echuca",
+        "postcode": 3564,
+        "state": "VIC"
+      },
+      "representative": {
+        "rep_name": "John",
+        "contact_number": "0448756765"
+      },
+      "delivery_days": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "messages": []
+    },
+    {
+      "id": 4,
+      "name": "Savour and Grace",
+      "company_logo_url": "https://www.quattrostelle.com.au/wp-content/uploads/2018/06/savour-and-grace.png",
+      "contact_number": "03 9371 1111",
+      "address": {
+        "lot_factory_number": "",
+        "street_number": "74",
+        "street_name": "Bakehouse Rde",
+        "suburb": "Kensington ",
+        "postcode": 3031,
+        "state": "VIC "
+      },
+      "representative": {
+        "rep_name": "Jess",
+        "contact_number": "0488220921"
+      },
+      "delivery_days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "messages": []
+    }
+  ],
+  "stocktake": [
+    {
+      "id": "master",
+      "date": "18/8/2021",
+      "products": [
+        {
+          "id": 1,
+          "name": "Tasty Cheese",
+          "brand": "Mainland",
+          "supplier": "Savour and Grace",
+          "quantity": 10,
+          "unit": "kg",
+          "price_per_unit": 1,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 2,
+          "name": "Mayonnaise",
+          "brand": "FX",
+          "supplier": "Savour and Grace",
+          "quantity": 64,
+          "unit": "kg",
+          "price_per_unit": 2.56,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 3,
+          "name": "Jamon Serano",
+          "brand": "M2PBasics",
+          "supplier": "Meat2Please",
+          "quantity": 1,
+          "unit": "kg",
+          "price_per_unit": 1.56,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 4,
+          "name": "Cornichons",
+          "brand": "Sirena",
+          "supplier": "Savour and Grace",
+          "quantity": 0,
+          "unit": "kg",
+          "price_per_unit": 0.5,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 5,
+          "name": "Chips Skin On",
+          "brand": "Sirena",
+          "supplier": "Savour and Grace",
+          "quantity": 0,
+          "unit": "kg",
+          "price_per_unit": 1.4,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 6,
+          "name": "Burger Bun Sesame",
+          "brand": "Tip Top",
+          "supplier": "Cadell",
+          "quantity": 11,
+          "unit": "unit",
+          "price_per_unit": 0.38,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 7,
+          "name": "Party Pie - Beef and Cheese",
+          "brand": "Mrs. Macs",
+          "supplier": "Cadell",
+          "quantity": 0,
+          "unit": "carton",
+          "price_per_unit": 56.76,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 8,
+          "name": "Squid",
+          "brand": "Sirena",
+          "supplier": "Savour and Grace",
+          "quantity": 0,
+          "unit": "kg",
+          "price_per_unit": 0,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 9,
+          "name": "White Vinegar",
+          "brand": "",
+          "supplier": "",
+          "quantity": 6,
+          "unit": "L",
+          "price_per_unit": 1.34,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 10,
+          "name": "Raisins",
+          "brand": "",
+          "supplier": "",
+          "quantity": 0.1,
+          "unit": "kg",
+          "price_per_unit": 16,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 11,
+          "name": "Panko Bread Crumb",
+          "brand": "",
+          "supplier": "",
+          "quantity": 15.332,
+          "unit": "kg",
+          "price_per_unit": 2.34,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 12,
+          "name": "Turmeric",
+          "quantity": 543,
+          "unit": "g",
+          "price_per_unit": 0.07,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 13,
+          "name": "Meatballs",
+          "quantity": 10,
+          "unit": "kg",
+          "price_per_unit": 1.1,
+          "location": "Coolroom",
+          "type": "Recipe"
+        },
+        {
+          "id": 14,
+          "name": "Napoli",
+          "quantity": 4,
+          "unit": "kg",
+          "price_per_unit": 1.6,
+          "location": "Coolroom",
+          "type": "Recipe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "18/8/2021",
+      "products": [
+        {
+          "id": 1,
+          "name": "Tasty Cheese",
+          "brand": "Mainland",
+          "supplier": "Savour and Grace",
+          "quantity": 10,
+          "unit": "kg",
+          "price_per_unit": 1,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 2,
+          "name": "Mayonnaise",
+          "brand": "FX",
+          "supplier": "Savour and Grace",
+          "quantity": 64,
+          "unit": "kg",
+          "price_per_unit": 2.56,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 3,
+          "name": "Jamon Serano",
+          "brand": "M2PBasics",
+          "supplier": "Meat2Please",
+          "quantity": 1,
+          "unit": "kg",
+          "price_per_unit": 1.56,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 4,
+          "name": "Cornichons",
+          "brand": "Sirena",
+          "supplier": "Savour and Grace",
+          "quantity": 0,
+          "unit": "kg",
+          "price_per_unit": 0.5,
+          "location": "Coolroom",
+          "type": "Supplier"
+        },
+        {
+          "id": 5,
+          "name": "Chips Skin On",
+          "brand": "Sirena",
+          "supplier": "Savour and Grace",
+          "quantity": 0,
+          "unit": "kg",
+          "price_per_unit": 1.4,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 6,
+          "name": "Burger Bun Sesame",
+          "brand": "Tip Top",
+          "supplier": "Cadell",
+          "quantity": 11,
+          "unit": "unit",
+          "price_per_unit": 0.38,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 7,
+          "name": "Party Pie - Beef and Cheese",
+          "brand": "Mrs. Macs",
+          "supplier": "Cadell",
+          "quantity": 0,
+          "unit": "carton",
+          "price_per_unit": 56.76,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 8,
+          "name": "Squid",
+          "brand": "Sirena",
+          "supplier": "Savour and Grace",
+          "quantity": 0,
+          "unit": "kg",
+          "price_per_unit": 0,
+          "location": "Freezer",
+          "type": "Supplier"
+        },
+        {
+          "id": 9,
+          "name": "White Vinegar",
+          "brand": "",
+          "supplier": "",
+          "quantity": 6,
+          "unit": "L",
+          "price_per_unit": 1.34,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 10,
+          "name": "Raisins",
+          "brand": "",
+          "supplier": "",
+          "quantity": 0.1,
+          "unit": "kg",
+          "price_per_unit": 16,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 11,
+          "name": "Panko Bread Crumb",
+          "brand": "",
+          "supplier": "",
+          "quantity": 15.332,
+          "unit": "kg",
+          "price_per_unit": 2.34,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 12,
+          "name": "Turmeric",
+          "quantity": 543,
+          "unit": "g",
+          "price_per_unit": 0.07,
+          "location": "Dry Store",
+          "type": "Supplier"
+        },
+        {
+          "id": 13,
+          "name": "Meatballs",
+          "quantity": 10,
+          "unit": "kg",
+          "price_per_unit": 1.1,
+          "location": "Coolroom",
+          "type": "Recipe"
+        },
+        {
+          "id": 14,
+          "name": "Napoli",
+          "quantity": 4,
+          "unit": "kg",
+          "price_per_unit": 1.6,
+          "location": "Coolroom",
+          "type": "Recipe"
+        },
+        {
+          "id": 1,
+          "name": "Tasty Cheese",
+          "brand": "Mainland",
+          "supplier": "Savour and Grace",
+          "quantity": 56,
+          "unit": "kg",
+          "price_per_unit": 1,
+          "location": "Coolroom",
+          "type": "Supplier"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,444 @@
+@media screen and (min-width: 1430px){
+textarea{
+font-family: Arial, Helvetica, sans-serif;
+}
+.supplier-navbar{
+    margin-top: 150px;
+}
+
+.supplier-navbar-link{
+    color:cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 15px;
+    background-color: burlywood;
+}
+
+.suppliers-hub-logo{
+      width: 200px;
+      height: auto;
+}
+
+.suppliers-hub-card-container{
+    border: 2px solid burlywood;
+    background-color: burlywood;
+    color: cadetblue;
+    margin-top: 50px;
+    width: 90%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.suppliers-hub-card-container:last-child{
+    margin-bottom: 150px;
+}
+
+.search-suppliers-input{
+    color: cadetblue;
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 30px;
+    font-size: 20px;
+    width: 40%;
+    float: left;
+    border: none;
+}
+
+.search-suppliers-display-supplierCard{
+    float: right;
+    text-align: center;
+    padding: 20px;
+    width: 45%;
+    height: 580px;
+    margin-right: 40px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    overflow: scroll;
+    background-color: burlywood;
+    color: cadetblue;
+}
+.suppliers-hub-main-container{
+    border: 1px solid cadetblue;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-top: 100px;
+}
+/* Create Supplier */
+div.create-container{
+    width: 100%;
+    height: 350px;
+    display: block;
+    margin-bottom: 150px;
+}
+.create-supplier-form-container{
+    width: 45%;
+    float: left;
+
+}
+.create-supplier-form{
+    margin-left: 20px;
+    width: 100%;
+    display: block;
+    float: left;
+}
+#message_{
+    clear: left;
+    padding: 0;
+}
+.create-supplier-form:last-child{
+    margin-bottom: 150px;
+}
+div.supplier-card{
+    width: 98%;
+    height: 450px;
+}
+.supplier-create-form-inputs{
+    width: 60%;
+    height: 20px;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    background-color: burlywood;
+    border: none;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+input[type="text" i] {
+    padding: 0;
+}
+input[type="number" i] {
+    padding: 0;
+}
+.supplier-create-form-submits{
+    width: 150px;
+    height:20px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    display: block;
+    clear: both;
+    text-align: center;
+    background-color: burlywood;
+    border: none;
+    color: cadetblue;
+    text-decoration: none
+}
+.supplier-create-form-submits:hover{
+    cursor: pointer;
+}
+
+#address_state{
+    padding: 4px;
+}
+
+select.supplier-create-form-inputs::selection{
+    text-align: left;
+    color: cadetblue;
+    width: 60%;
+    font-size: 12px;
+}
+label.supplier-create-form-inputs{
+    font-size: 12px;
+    text-align: left;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+    padding: 4px 0px 0px 0px;
+}
+#address_state{
+    text-align: left;
+}
+textarea.supplier-create-form-inputs{
+    height: 100px;
+    font-weight: bold;
+}
+input.supplier-create-form-inputs-checkbox{
+    float: right;
+    text-align: right;
+    height:25px;
+    width: 25px;
+    color: cadetblue;
+    margin-right: 5px;
+    margin-bottom: 13px;
+}
+input[type="checkbox" i]{
+    float:right;
+}
+
+#delivery{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+::placeholder{
+    color: cadetblue;
+}
+
+.create-container{
+    margin-top: 100px;
+}
+
+.create-supplier-submits-recipe-card{
+    width: 150px;
+    height:18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    display: block;
+    clear: both;
+    text-align: center;
+    background-color: cadetblue;
+    border: none;
+    color: burlywood;
+    font-weight: bold;
+    text-decoration: none;
+}
+.create-display-created-supplier-container{
+    float: right;
+    padding: 20px;
+    width: 50%;
+    height: 580px;
+    margin-right: 40px;
+    overflow: scroll;
+    background-color: burlywood;
+    color: cadetblue;
+}
+}
+@media screen and (max-width: 1430px){
+    textarea{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        .supplier-navbar{
+            margin-top: 150px;
+        }
+
+        .supplier-navbar-link{
+            color:cadetblue;
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 40px;
+            margin-top: 40px;
+            padding: 15px;
+            background-color: burlywood;
+        }
+
+        .suppliers-hub-logo{
+              width: 200px;
+              height: auto;
+        }
+
+        .suppliers-hub-card-container{
+            border: 2px solid burlywood;
+            background-color: burlywood;
+            color: cadetblue;
+            margin-top: 50px;
+            width: 90%;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .suppliers-hub-card-container:last-child{
+            margin-bottom: 150px;
+        }
+
+        .search-suppliers-input{
+            color: cadetblue;
+            background-color: burlywood;
+            margin-left: 50px;
+            margin-top: 100px;
+            height: 30px;
+            font-size: 20px;
+            width: 40%;
+            float: left;
+            border: none;
+        }
+
+        .search-suppliers-display-supplierCard{
+            float: right;
+            text-align: center;
+            padding: 20px;
+            width: 45%;
+            height: 580px;
+            margin-right: 40px;
+            margin-top: 50px;
+            margin-bottom: 150px;
+            overflow: scroll;
+            background-color: burlywood;
+            color: cadetblue;
+        }
+        .suppliers-hub-main-container{
+            border: 1px solid cadetblue;
+            margin-bottom: 20px;
+            margin-top: 150px;
+            width: 90%;
+        }
+        /* Create Supplier */
+        div.create-container{
+            width: 100%;
+            height: 350px;
+            display: block;
+            margin-bottom: 150px;
+        }
+        .create-supplier-form-container{
+            width: 40%;
+            float: left;
+
+        }
+        .create-supplier-form{
+            margin-left: 20px;
+            width: 100%;
+            display: block;
+            float: left;
+        }
+        #message_{
+            clear: left;
+            padding: 0;
+        }
+        .create-supplier-form:last-child{
+            margin-bottom: 150px;
+        }
+        div.supplier-card{
+            width: 98%;
+            height: 450px;
+        }
+        .supplier-create-form-inputs{
+            width: 60%;
+            height: 20px;
+            text-align: left;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5px;
+            background-color: burlywood;
+            border: none;
+            color: cadetblue;
+            font-weight: bold;
+        }
+        input[type="text" i] {
+            padding: 0;
+        }
+        input[type="number" i] {
+            padding: 0;
+        }
+        .supplier-create-form-submits{
+            width: 150px;
+            height:20px;
+            font-weight: bold;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 1px;
+            display: block;
+            clear: both;
+            text-align: center;
+            background-color: burlywood;
+            border: none;
+            color: cadetblue;
+            text-decoration: none
+        }
+        .supplier-create-form-submits:hover{
+            cursor: pointer;
+        }
+        #address_state{
+            padding: 4px;
+        }
+        select.supplier-create-form-inputs::selection{
+            text-align: left;
+            color: cadetblue;
+            width: 60%;
+            font-size: 12px;
+        }
+        label.supplier-create-form-inputs{
+            font-size: 12px;
+            text-align: left;
+            height: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 60%;
+            padding: 4px 0px 0px 0px;
+        }
+        #address_state{
+            text-align: left;
+        }
+        textarea.supplier-create-form-inputs{
+            height: 100px;
+            font-weight: bold;
+        }
+        input.supplier-create-form-inputs-checkbox{
+            float: right;
+            text-align: right;
+            height:25px;
+            width: 25px;
+            color: cadetblue;
+            margin-right: 5px;
+            margin-bottom: 13px;
+        }
+        input[type="checkbox" i]{
+            float:right;
+        }
+        #delivery{
+            width: 60%;
+            text-align: center;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ::placeholder{
+            color: cadetblue;
+        }
+
+        .suppliers-hub-main-container{
+            width:95%;
+            float: right;
+            background-color: burlywood;
+            margin-right: 40px;
+            margin-top: 150px;
+        }
+
+        .create-container{
+            margin-top: 100px;
+        }
+
+        .create-supplier-submits-recipe-card{
+            width: 150px;
+            height:18px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 1px;
+            display: block;
+            clear: both;
+            text-align: center;
+            background-color: cadetblue;
+            border: none;
+            color: burlywood;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .create-display-created-supplier-container{
+            float: right;
+            padding: 20px;
+            width: 50%;
+            height: 580px;
+            margin-right: 40px;
+            overflow: scroll;
+            background-color: burlywood;
+            color: cadetblue;
+        }
+
+}
